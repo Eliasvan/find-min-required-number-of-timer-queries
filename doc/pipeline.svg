@@ -18,8 +18,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="pipeline.svg"
    inkscape:export-filename="/home/elias/Programs/C/GLUT/find-min-required-number-of-timer-queries/doc/pipeline.png"
-   inkscape:export-xdpi="89.962891"
-   inkscape:export-ydpi="89.962891">
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
@@ -419,7 +419,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1662,7 +1662,7 @@
                      id="tspan15074"
                      y="350.63907"
                      x="650.36694"
-                     sodipodi:role="line">Querty timer object</tspan></text>
+                     sodipodi:role="line">Query timer object</tspan></text>
               </g>
               <g
                  transform="translate(0,2)"
