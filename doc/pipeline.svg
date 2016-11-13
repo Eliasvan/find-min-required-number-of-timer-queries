@@ -10,16 +10,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="168.76382mm"
-   height="71.402473mm"
-   viewBox="0 0 597.98206 253.00089"
+   width="1920"
+   height="812.33496"
+   viewBox="0 0 1920 812.33498"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="pipeline.svg"
    inkscape:export-filename="/home/elias/Programs/C/GLUT/find-min-required-number-of-timer-queries/doc/pipeline.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-xdpi="89.962891"
+   inkscape:export-ydpi="89.962891">
   <defs
      id="defs4">
     <marker
@@ -395,11 +395,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="350.66058"
-     inkscape:cy="93.963837"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="981.42184"
+     inkscape:cy="334.44714"
      inkscape:document-units="px"
-     inkscape:current-layer="g15129"
+     inkscape:current-layer="g15387"
      showgrid="false"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
@@ -409,7 +409,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     units="px" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -418,7 +419,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -426,11 +427,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-4.5903053,-251.04239)">
+     transform="translate(656.41865,28.62465)">
     <g
        id="g15387">
       <g
-         id="g14764">
+         id="g14764"
+         transform="matrix(3.2107987,0,0,3.2107987,-671.1572,-834.67119)">
         <g
            id="g11507"
            transform="translate(3.2197018,0)">
@@ -466,7 +468,7 @@
                style="font-size:7.5px;text-align:center;text-anchor:middle"
                y="493.70148"
                x="366.19461"
-               sodipodi:role="line">timer queries to 3:</tspan><tspan
+               sodipodi:role="line">timer query objects to 3:</tspan><tspan
                style="font-size:7.5px;text-align:center;text-anchor:middle"
                y="503.07648"
                x="366.19461"
@@ -558,20 +560,15 @@
                x="77.271744"
                y="465.57648"
                style="font-size:7.5px;text-align:center;text-anchor:middle"
-               id="tspan11505-9">Start with</tspan><tspan
+               id="tspan11603">Start with a total of</tspan><tspan
                sodipodi:role="line"
                x="77.271744"
                y="474.95148"
                style="font-size:7.5px;text-align:center;text-anchor:middle"
-               id="tspan11603">a total of</tspan><tspan
+               id="tspan11607">2 timer query objects:</tspan><tspan
                sodipodi:role="line"
                x="77.271744"
                y="484.32648"
-               style="font-size:7.5px;text-align:center;text-anchor:middle"
-               id="tspan11607">2 timer queries:</tspan><tspan
-               sodipodi:role="line"
-               x="77.271744"
-               y="493.70148"
                style="font-size:7.5px;text-align:center;text-anchor:middle"
                id="tspan11605">TQ0 and TQ1</tspan></text>
         </g>
@@ -1605,7 +1602,7 @@
       </g>
       <g
          id="g15151"
-         transform="translate(-151.09468,-61.947227)">
+         transform="matrix(3.2107987,0,0,3.2107987,-1156.2918,-1033.5713)">
         <rect
            style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.54500002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect15047"
