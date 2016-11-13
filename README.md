@@ -7,9 +7,9 @@ to avoid pipeline stalls while querying the oldest timer query object.
 We assume the timer queries are used to get
 the absolute timestamp at the end of each frame of a given application/benchmark,
 with the intent to do frame time analysis using the timestamps
-(e.g., [libframetime!](https://github.com/clbr/libframetime)).
+(e.g., [libframetime](https://github.com/clbr/libframetime)).
 
-Some say this number is equal to two (see [double timer query buffer approach!](http://www.lighthouse3d.com/tutorials/opengl-timer-query/#highlighter_120514)),
+Some say this number is equal to two (see [double timer query buffer approach](http://www.lighthouse3d.com/tutorials/opengl-timer-query/#highlighter_120514)),
 but practice shows this is not high enough for some application --- driver combinations.
 
 This utility will dynamically increase the number of timer query objects
@@ -17,7 +17,7 @@ each time the oldest timer query result is not yet available,
 while displaying a scene (currently a green screen) that asks little CPU time.
 Below diagram tries to explain this process.
 
-[![pipeline.png](doc/pipeline.png)](doc/pipeline.png)
+[![pipeline.png](https://raw.githubusercontent.com/Eliasvan/find-min-required-number-of-timer-queries/master/doc/pipeline.png)](doc/pipeline.png)
 
 This diagram only shows one dynamic increase from two to three timer query objects for sake of simplicity,
 but this process can go on until 255 timer query objects are used simultaneously.
