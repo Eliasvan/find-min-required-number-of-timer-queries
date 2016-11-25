@@ -62,6 +62,9 @@ The last line of output is the most interesting one, in this example the number 
 If you ever see a higher number, please open a GitHub issue on this project page with your full output attached, this would be interesting.
 Disabling VSync can make it easier to get a high number, on Mesa prepend `vblank_mode=0 ` to the command line.
 
+After some investigation, it seems this number is related to
+the "maximum pre-rendered frames" setting for NVIDIA and "flip queue size" setting for AMD.
+
 
 Cross compiling on Ubuntu 64-bit for **Win64**
 ==============================================
